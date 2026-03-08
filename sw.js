@@ -1,9 +1,9 @@
 const CACHE_NAME = "calculadora-solar-v1";
 
 const urlsToCache = [
-  "/calculadora_solar/",
-  "/calculadora_solar/index.html",
-  "/calculadora_solar/manifest.json"
+  "/",
+  "/index.html",
+  "/manifest.json"
 ];
 
 self.addEventListener("install", event => {
